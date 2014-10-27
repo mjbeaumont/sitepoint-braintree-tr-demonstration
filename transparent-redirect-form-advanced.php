@@ -46,7 +46,7 @@
                     $status = 'Email address is a required field';
 
                 } else {
-                    $status = 'Your transaction was processed succesfully.';
+                    $status = 'Your transaction was processed successfully.';
                 }
             } else {
                 $status = $result->message;

@@ -29,7 +29,7 @@
         try {
             $result = Braintree_TransparentRedirect::confirm($_SERVER['QUERY_STRING']);
             if ($result->success) {
-                $status = 'Your transaction was processed succesfully.';
+                $status = 'Your transaction was processed successfully.';
             } else {
                 $status = $result->message;
             }
