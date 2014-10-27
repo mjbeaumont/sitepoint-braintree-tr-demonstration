@@ -10,7 +10,9 @@ or
 
 	composer install
 
-if you have Composer installed globally.
+if you have Composer installed globally. 
+
+Finally, open `settings.php` and replace the default values with your Braintree API keys and your domain name.
 
 ### Requirements ###
 
